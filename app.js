@@ -176,7 +176,6 @@ function lossConditions() {
 
 function runForLife() {
     people.forEach(person => {
-
         let randomIndex = Math.floor(Math.random() * locations.length)
         let newLocation = locations[randomIndex]
         person.location = newLocation
